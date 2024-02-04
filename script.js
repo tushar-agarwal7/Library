@@ -19,12 +19,12 @@ const myLibrary=[
     title: " JavaScript",
     author: "Code Explorer",
     pages: 300,
-    image: "https://m.media-amazon.com/images/I/51HEUzeLVtL.jpg"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQojfBNN6BuTyzhRqNd-z-4qX-s89aj8ceC-w&usqp=CAU"
   },
   {
     title: "Coding Chronicles",
     author: "Byte Master",
-    pages: 250,
+    pages: 240,
     image: "https://m.media-amazon.com/images/I/61Uwxj8TLqL._AC_UF1000,1000_QL80_.jpg"
   },
   {
