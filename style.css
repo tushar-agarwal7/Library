@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+   font-family: cursive;
+   background: radial-gradient(#070707 2%, transparent);
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 700;
+}
+.header-text p{
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.addBtn{
+    background-color: yellow;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    
+}
+.addBtn:hover{
+    opacity: 0.8;
+    border: 1px solid;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+text-align: center;
+margin-top: 15px;
+
+}
+
+.form{
+    display: none;
+   width: 400px;
+    /* display: flex; */
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin: 20px;
+}
+.form input{
+    height: 40px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    border: 1px solid;
+    border-radius: 16px;
+    width: 500px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+button {
+    margin: 12px;
+    padding: 10px 22px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    background-color:yellow;
+    cursor: pointer;
+    border-radius: 30px;
+    text-align: center;
+  }
+#submit-btn:hover{
+  opacity: 0.8;
+  border: 1px solid;
+
+}
+
+  .library-area{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+ 
+ .card{
+    border-radius: 20px !important;
+    background: radial-gradient(#0000004f 20%, #0000004f);
+    color:white;
+    height:28rem;
+    width: 20rem;
+    box-shadow: 5px 5px 10px rgba(96, 83, 83, 0.5);
+    
+
+ }
+ .card:hover{
+    transform: scale(1.05);
+    transition: transform 0.1s ease-in-out;
+    cursor: pointer;
+    opacity: 0.8;
+ }
+ .card-img{
+    border-radius: 20px !important;
+    height:15rem;
+ }
+
+footer{
+    background: radial-gradient(#0000004f 20%, #0000004f);
+    position: relative;
+    bottom: 0;
+    height: 80px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
